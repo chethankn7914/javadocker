@@ -1,5 +1,5 @@
 #Pull the Java base image
-FROM java:8
+FROM openjdk
 
 #Set the working directory
 WORKDIR /var/www/java
